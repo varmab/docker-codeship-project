@@ -9,7 +9,7 @@ test ('Root endpoint', function (t) {
 
   server.inject(req, function (res) {
     t.equal(res.statusCode, 200);
-    t.equal(res.result, 'We love Docker & Codeship');
+    t.equal(res.result, 'We love CI');
     t.end();
   });
 });
