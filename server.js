@@ -9,7 +9,7 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    reply('We <3 Docker & Codeship');
+    reply('We love Docker & Codeship');
   }
 });
 
